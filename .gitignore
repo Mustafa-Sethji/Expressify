@@ -1,0 +1,29 @@
+# Build output
+target/
+
+# Node dependencies
+node_modules/
+
+# File uploads (ignore user uploaded files, keep directory structure)
+uploads/*
+!uploads/.gitkeep
+!uploads/posts/
+uploads/posts/*
+!uploads/posts/.gitkeep
+!uploads/profiles/
+uploads/profiles/*
+!uploads/profiles/.gitkeep
+
+# Sensitive and temporary files
+cookies.txt
+.DS_Store
+**/.DS_Store
+.env
+.env.*
+application-local.properties
+*.log
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
